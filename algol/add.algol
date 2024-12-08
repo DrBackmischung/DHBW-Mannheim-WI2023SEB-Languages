@@ -1,0 +1,7 @@
+BEGIN
+    INT PROCEDURE Add(a, b);
+    BEGIN
+        Add := a + b;
+    END;
+    PRINT("Sum: ", Add(5, 7));
+END.

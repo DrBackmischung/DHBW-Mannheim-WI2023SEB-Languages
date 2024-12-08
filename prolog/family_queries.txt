@@ -1,0 +1,12 @@
+?- [family].
+
+?- grandfather(john, david).
+true.
+
+?- grandmother(lisa, david).
+false.
+
+?- grandparent(X, david).
+X = john ;
+X = lisa ;
+X = mary.
